@@ -7,43 +7,41 @@ body, h1, h2, p, ul, li {
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background-color: #f0fbf9;
+  background-color: #f4f4f9;
   color: #333;
   line-height: 1.6;
   padding: 20px;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   background: white;
   padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+@@ -23,8 +23,11 @@
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
+
+
   margin-bottom: 40px;
-  text-align: left;
+
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
+@@ -33,29 +36,31 @@
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-left: 20px;
-  flex-shrink: 0;
+  margin-bottom: 20px;
+
 }
 
 .description {
   font-size: 1rem;
   color: #555;
-  max-width: 70%;
+
 }
 
 section {
