@@ -69,16 +69,16 @@ margin-bottom: 18px;
 }
 
 
-ul {
+/* ul {
 list-style: disc inside;
 margin-left: 10px;
 }
 
 
 li {
-margin-bottom: 10px; /* 箇条書きの読みやすさ改善 */
+margin-bottom: 10px;
 line-height: 1.6;
-}
+} */
 
 
 p {
