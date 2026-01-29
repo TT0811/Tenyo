@@ -1,0 +1,88 @@
+/* Basic reset */
+body, h1, h2, p, ul, li {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Helvetica Neue', sans-serif;
+background-color: #f0fbf9;
+color: #333;
+line-height: 1.7; /* 行間を少し広げて整える */
+padding: 20px;
+}
+
+
+.container {
+max-width: 900px;
+margin: 0 auto;
+background: white;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+header {
+text-align: center;
+margin-bottom: 40px;
+}
+
+
+.header-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+text-align: left; /* 説明文を左寄せ */
+}
+
+
+.profile-photo {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.description {
+font-size: 1rem;
+color: #555;
+line-height: 1.7;
+}
+
+
+section {
+margin-bottom: 35px;
+}
+
+
+h2 {
+font-size: 1.5rem;
+border-bottom: 2px solid #ddd;
+padding-bottom: 5px;
+margin-bottom: 18px;
+}
+
+
+ul {
+list-style: disc inside;
+margin-left: 10px;
+}
+
+
+li {
+margin-bottom: 10px;
+line-height: 1.6;
+}
+
+
+p {
+margin-bottom: 15px; /* 段落間の隙間 */
+text-align: justify;
+hyphens: auto;
+}
